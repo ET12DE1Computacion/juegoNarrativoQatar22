@@ -1,0 +1,18 @@
+# Carpetas y archivos generados por Ren'Py
+*.rpyc
+*.rpyb
+game/saves/
+game/cache/
+game/log.txt
+game/errors.txt
+tmp/
+
+# Archivos de compilación y distribuciones
+build/
+*.pyc
+
+# Archivos del sistema y del editor
+.DS_Store
+Thumbs.db
+*.swp
+*~
