@@ -1,18 +1,26 @@
-# Carpetas y archivos generados por Ren'Py
-*.rpyc
-*.rpyb
-game/saves/
-game/cache/
-game/log.txt
-game/errors.txt
-tmp/
+# Directories that Ren'Py changes files in.
+/game/saves
+/game/cache
 
-# Archivos de compilación y distribuciones
-build/
-*.pyc
+# Compiled script files. These are important for saving, and so should
+# be preserved by developer and build systems after the game has been released.
+/game/**/*.rpyc
+/game/**/*.rpymc
 
-# Archivos del sistema y del editor
-.DS_Store
-Thumbs.db
-*.swp
-*~
+# Files Ren'Py can generate.
+/game/**/*.bak
+/game/**/*.new
+/game/**/*.old
+
+# Error, log, and output files.
+/errors.txt
+/files.txt
+/image_cache.txt
+/log.txt
+/save_dump.txt
+/traceback.txt
+
+# Launcher-generated files.
+/dialogue.tab
+/dialogue.txt
+/strings.json
